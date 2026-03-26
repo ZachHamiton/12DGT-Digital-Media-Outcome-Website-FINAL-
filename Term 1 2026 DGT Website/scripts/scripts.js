@@ -22,6 +22,6 @@ document.addEventListener('click', e =>{
     document.querySelectorAll("[data-dropdown].active").forEach(dropdown => {
         if (dropdown === currentDropdown) return;
         dropdown.classList.remove('active');
-    })
+    });
 
 });
